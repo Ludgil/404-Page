@@ -73,12 +73,27 @@ a{
 }
 
 a:hover{
-  background: linear-gradient(to right top, #f29f05, #f49b20, #f5972f, #f5933b, #f49046, #f28d4a, #ef894d, #ec8650, #e7804e, #e37b4d, #de754b, #d9704a);
-  text:transparent;
+  border-image-source:linear-gradient(to left bottom, #734854, #663c51, #56324e, #45294b, #302247, #3e2551, #4d2659, #5d2760, #9a2d63, #cd4155, #ec6b39, #f29f05);
+  border-image-slice: 1;
+  background:linear-gradient(to left bottom, #734854, #663c51, #56324e, #45294b, #302247, #3e2551, #4d2659, #5d2760, #9a2d63, #cd4155, #ec6b39, #f29f05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 a:visited{
   background:linear-gradient(to right top, #f29f05, #f49b20, #f5972f, #f5933b, #f49046, #f28d4a, #ef894d, #ec8650, #e7804e, #e37b4d, #de754b, #d9704a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0,0,0.2);
 }
