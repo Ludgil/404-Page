@@ -1,0 +1,99 @@
+body{
+  margin: 0 auto;
+  background: url("/assets/img/night-big-city-life-between-san-francisco-skyscrapers-picjumbo-com.jpg");
+  background-size: cover;
+  padding-top: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.main{
+  width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cadre{
+  border: 8px solid;
+  border-image-source:linear-gradient(to right top, #f29f05, #f49b20, #f5972f, #f5933b, #f49046, #f28d4a, #ef894d, #ec8650, #e7804e, #e37b4d, #de754b, #d9704a);
+  border-image-slice: 1;
+  width: 350px;
+  height: 350px;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.rotateIn:hover{
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+
+h1{
+  /*color:#2BCFDF;*/
+  background:linear-gradient(to right top, #f29f05, #f49b20, #f5972f, #f5933b, #f49046, #f28d4a, #ef894d, #ec8650, #e7804e, #e37b4d, #de754b, #d9704a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 125px;
+  margin: 0;
+  font-family: 'Mansalva', cursive;
+  align-self: center;
+  text-align: center;
+}
+
+p{
+  background:linear-gradient(to right top, #f29f05, #f49b20, #f5972f, #f5933b, #f49046, #f28d4a, #ef894d, #ec8650, #e7804e, #e37b4d, #de754b, #d9704a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  align-self: center;
+  font-family: 'Mansalva', cursive;
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+a{
+  font-size: 65px;
+  padding: 15px;
+  text-decoration: none;
+  border: 5px solid;
+  border-image-source:linear-gradient(to right top, #f29f05, #f49b20, #f5972f, #f5933b, #f49046, #f28d4a, #ef894d, #ec8650, #e7804e, #e37b4d, #de754b, #d9704a);
+  border-image-slice: 1;
+  font-family: 'Mansalva', cursive;
+  text-align: center;
+  align-self: center;
+  background:linear-gradient(to right top, #f29f05, #f49b20, #f5972f, #f5933b, #f49046, #f28d4a, #ef894d, #ec8650, #e7804e, #e37b4d, #de754b, #d9704a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:hover{
+  border-image-source:linear-gradient(to left bottom, #734854, #663c51, #56324e, #45294b, #302247, #3e2551, #4d2659, #5d2760, #9a2d63, #cd4155, #ec6b39, #f29f05);
+  border-image-slice: 1;
+  background:linear-gradient(to left bottom, #734854, #663c51, #56324e, #45294b, #302247, #3e2551, #4d2659, #5d2760, #9a2d63, #cd4155, #ec6b39, #f29f05);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+a:visited{
+  background:linear-gradient(to right top, #f29f05, #f49b20, #f5972f, #f5933b, #f49046, #f28d4a, #ef894d, #ec8650, #e7804e, #e37b4d, #de754b, #d9704a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.block{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 650px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0,0,0.5);
+}
